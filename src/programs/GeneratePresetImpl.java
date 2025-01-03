@@ -10,9 +10,7 @@ import java.util.stream.Collectors;
 
 
 public class GeneratePresetImpl implements GeneratePreset {
-
-    private static final int MAX_UNITS_PER_TYPE = 11;
-    private static final int MAX_RETRY_COUNT = 100;
+    private static final int MAX_UNITS_PER_TYPE = 13;
 
     @Override
     public Army generate(List<Unit> unitsAvailable, int maxPoints) {
